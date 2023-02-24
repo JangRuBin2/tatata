@@ -7,11 +7,27 @@
   <title>Document</title>
 </head>
 <body>
-    9시 16분
-
-    이건 브랜치: 마스터에서 추가 된 내용이야 이거만 푸쉬해볼게
-
-    issue01에서 추가 된 내용 -> 이거만 커밋
-
+  <div id="root">하이</div>
 </body>
+<script>
+  let poketmon = ["피카츄","라이츄","파이리"];
+  let people = {
+    korean:["김민수","김철수","김영수"],
+    japanese:["나카무라","니나무라","마니무라"]
+  }
+  console.dir(poketmon[0]);
+  // 객체에 접근하는 방법
+  console.dir(Object.keys(people));
+
+
+  const obj = {
+  order: '햄버거'
+}
+// obj에 price = 1000이라는 key를 추가
+obj.price = 1000
+
+// pric의 값을 핸들링
+obj['price'] = 1600
+console.log(obj)
+</script>
 </html>
